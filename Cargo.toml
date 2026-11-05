@@ -1,0 +1,13 @@
+[package]
+name = "rs-argon2-kdf"
+version = "1.0.0"
+edition = "2021"
+description = "Argon2id key derivation function (memory-hard)"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-argon2-kdf"
+keywords = ["rust", "argon2", "kdf", "password-hashing", "cryptography"]
+
+[[bin]]
+name = "rs_argon2_kdf"
+path = "main.rs"
